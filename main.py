@@ -123,6 +123,13 @@ class SocialBot:
 
     def run_loop(self):
         logger.info("Monitoring loop started...")
+        # Send startup message
+        import requests
+        try:
+            requests.post(f"https://api.telegram.org/bot{TELEGRAM_TOKEN}/sendMessage", 
+                         data={"chat_id": TELEGRAM_CHAT_ID, "text": "✅ تم تشغيل بوت المراقبة بنجاح! سأقوم الآن بمراقبة حساباتك الستة وإرسال صور عند أي تغيير."})
+        except:
+            pass
         # Initial run
         self.check_for_changes()
         
