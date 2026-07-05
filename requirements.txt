@@ -1,8 +1,6 @@
 requests
 beautifulsoup4
 pillow
-pyTelegramBotAPI
-apscheduler
 python-dotenv
-instaloader
-robox
+flask
+gunicorn
