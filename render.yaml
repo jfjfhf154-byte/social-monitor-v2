@@ -1,0 +1,25 @@
+services:
+  - type: worker
+    name: social-tracker-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: TELEGRAM_TOKEN
+        value: 8942409122:AAGAf3rU9Z2NIwBnCvuhItxuPIyesiAczAk
+      - key: TELEGRAM_CHAT_ID
+        value: "6681273268"
+      - key: YOUTUBE_URL
+        value: https://youtube.com/@taleencute9315
+      - key: INSTAGRAM_USERNAME
+        value: tulyx_v
+      - key: TIKTOK_USERNAME
+        value: tulyx_v
+      - key: ROBLOX_USERNAME
+        value: qad4s
+      - key: TELEGRAM_USERNAME
+        value: tulyx_v
+      - key: PINTEREST_USERNAME
+        value: tulyx_v
+      - key: ROBLOX_COOKIE
+        value: _|WARNING:-DO-NOT-SHARE-THIS.--Sharing-this-will-allow-someone-to-log-in-as-you-and-to-steal-your-ROBUX-and-items.|_CAEaBBAEGAEiHAoEZHVpZBIUMTgzOTY3NjA0OTA2NzYyMTA1OTkoAw.xxfOB3xiRhT6SwN-0vDOTigRShmH5m2j4GShPSMGtsfBsk18opncnG0NXIDKejWXuSr0MAG9UN8xK_bVK2E5uqaxPaS-pqDtJ5TQF5qtjJ-v9lJwVXNpVJTHZe5F31qTGlf2QM6-NoMYpHT5w0MeNEU63jgv9PQmHbXkZbjMdiZrDx-jg8iyLCxM6F4eRLQZflBXHIUMVG_Fu94vauwabwHQRmTZaR-nTx289ZMmH1yc8v5wFGShsOA0Efdp303br8FYdVFZNVtnoSvHXQSXZjck310UN5eO8ogyMECFMkfo2yjx_NcXR9MT-N3M_PCzg1HRyBOHLj62_QHiH76UnQivFfq11-1ELFCuvoGKS7D_IUmxp5ddBhAXMfQ5X77eN_dT0PPczldpqtn68NPNTm37F3JcYK_yj9k23KwX32YFNu1o3aH-mVE1phoXpF8vqz85-MUWsLghkdJ8k4GCgJ3Y0Nvh1ytt7i5so1u7be2bXER52DpAzPi_MkWsbZbXxbioB7sdbqVlLAdKJ16TM44C3mjEKGd_sofGW9v_NrvGDh6V70a9RFPffrWsMJF91OH61_jTfXLJRE3jMByIo50i28v-T7Gt5tIWjsjaWRnrm3xIccsBcKBt0j0r_tCi36YxZ1uLjgCBSXrj2ZzCibfnoknN06jC3r0fla-BBkr-PyXMzJf7dBbpShzVKh5y90WXmgdzDg6n361wVbz3PJwMjYRxD_wbQCMAWJvg6jBn1ZGV64EKrPxp7JiURldMZpJuvFrrscR1rh7TUGO7ihxFSsBvhwb9hUWm7O8d6cUqQ-qmkw51eM92Mel2-6QTGIsmTYvXC7ZiHRPv4QH389_yMNCwqS5O7HTUoHs_Ifo3ChxfLlFpODUXFTrYtIqCwTzerk8TzoKm95ZXARlhRA7ErRG0iWtpOriPfSGaFBg.M3tagN5vzadSApV9mweDgkRIpdA
